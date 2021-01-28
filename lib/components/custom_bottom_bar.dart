@@ -12,6 +12,7 @@ class CustomAppBarItem {
 class CustomBottomAppBar extends StatefulWidget {
   final ValueChanged<int> onTabSelected;
   final List<CustomAppBarItem> items;
+  static const double height = 62;
 
   CustomBottomAppBar({Key key, this.onTabSelected, this.items}) {
     assert(this.items.length % 2 == 0);
@@ -71,7 +72,7 @@ class _CustomBottomAppBarState extends State<CustomBottomAppBar> {
 
   Widget _buildMiddleSeparator() {
     return SizedBox(
-      height: 62,
+      height: CustomBottomAppBar.height,
       width: 80,
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -110,12 +111,11 @@ class _CustomBottomAppBarState extends State<CustomBottomAppBar> {
             ));
     items.insert(items.length >> 1, _buildMiddleSeparator());
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: defaultPadding),
-      height: 62,
       child: Container(
-        height: 62,
-        decoration: BoxDecoration(color: Colors.white, boxShadow: [
-          BoxShadow(offset: Offset(0, -20), color: Colors.white, blurRadius: 15)
+        padding: EdgeInsets.symmetric(horizontal: defaultPadding),
+        height: CustomBottomAppBar.height,
+        decoration: BoxDecoration(color: Colors.transparent, boxShadow: [
+          BoxShadow(offset: Offset(0, 4), color: Colors.white, blurRadius: 14, spreadRadius: 14)
         ]),
         child: Row(
           mainAxisSize: MainAxisSize.max,

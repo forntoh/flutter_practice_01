@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hi_service_app/components/custom_app_bar.dart';
+import 'package:hi_service_app/components/custom_bottom_bar.dart';
 import 'package:hi_service_app/constants.dart';
 import 'package:hi_service_app/model/category_model.dart';
 import 'package:hi_service_app/model/recent_item_model.dart';
@@ -54,7 +55,7 @@ class Body extends StatelessWidget {
           date: 'May 24, 21:36',
           category: categories[1]),
       RecentItem(
-          text: 'Next city-break',
+          text: 'Morning routine ideas',
           date: 'May 24, 21:36',
           category: categories[0]),
       RecentItem(
@@ -72,7 +73,7 @@ class Body extends StatelessWidget {
             IdeaCategories(categories: categories,onPress: (int index) {}),
             TitleWithAction(title: 'Recently added', onPress: () {}),
             RecentsList(recents: recents),
-            SizedBox(height: defaultPaddingIcon)
+            SizedBox(height: CustomBottomAppBar.height)
           ],
         ),
       ),
