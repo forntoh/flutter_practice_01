@@ -4,7 +4,7 @@ Flutter design preactice number 01
 
 | Mine | Design to Replicate |
 |-|-|
-| ![iDeaz App](Screenshot_20210128-133405.jpg) | ![iDeaz App](https://cdn.dribbble.com/users/1553195/screenshots/11978026/media/242d5671c867aa800d3e5c8c9ad2ba2a.jpg) |
+| <img src="Screenshot_20210128-133405.jpg" width=500/> | ![iDeaz App](dribbble_1.jpg) |
 
 ### Credits
 
