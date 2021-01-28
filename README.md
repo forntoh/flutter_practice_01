@@ -4,7 +4,11 @@ Flutter design preactice number 01
 
 | Mine | Design to Replicate |
 |-|-|
-| <img src="Screenshot_20210128-133405.jpg" width=500/> | ![iDeaz App](dribbble_1.jpg) |
+| <img src="Screenshot_20210128-133405.jpg" width=506/> | ![iDeaz App](dribbble_1.jpg) |
+
+## Challenges
+
+- Squircle shape
 
 ### Credits
 
