@@ -31,7 +31,7 @@ class Body extends StatelessWidget {
       ),
       Category(
         icon: CategoryIcon(pink, CupertinoIcons.heart_fill),
-        name: 'Love',
+        name: 'Relationship',
       ),
     ];
 
