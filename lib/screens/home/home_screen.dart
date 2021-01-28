@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hi_service_app/constants.dart';
-import 'package:hi_service_app/screens/custom_bottom_bar.dart';
+import 'package:hi_service_app/components/custom_bottom_bar.dart';
 import 'package:hi_service_app/screens/home/components/body.dart';
 
 

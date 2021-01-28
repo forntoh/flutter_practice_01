@@ -14,23 +14,23 @@ class Body extends StatelessWidget {
     
     List<Category> categories = [
       Category(
-        icon: CategoryIcon(Color(0xFF2CB9B0), CupertinoIcons.person_fill),
+        icon: CategoryIcon(green, CupertinoIcons.person_fill),
         name: 'Personal',
       ),
       Category(
-        icon: CategoryIcon(Color(0xFF47A6FF), CupertinoIcons.person_2_fill),
+        icon: CategoryIcon(blue, CupertinoIcons.person_2_fill),
         name: 'Family',
       ),
       Category(
-        icon: CategoryIcon(Color(0xFFC396FF), CupertinoIcons.briefcase_fill),
+        icon: CategoryIcon(purple, CupertinoIcons.briefcase_fill),
         name: 'Work',
       ),
       Category(
-        icon: CategoryIcon(Color(0xFFF0A35D), CupertinoIcons.lightbulb_fill),
+        icon: CategoryIcon(orange, CupertinoIcons.lightbulb_fill),
         name: 'Various',
       ),
       Category(
-        icon: CategoryIcon(Color(0xFFF75F98), CupertinoIcons.heart_fill),
+        icon: CategoryIcon(pink, CupertinoIcons.heart_fill),
         name: 'Love',
       ),
     ];
