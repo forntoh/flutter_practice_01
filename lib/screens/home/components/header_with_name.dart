@@ -19,17 +19,14 @@ class HeaderWithName extends StatelessWidget {
         children: [
           Text(
             'Welcome back, $name!',
-            style: Theme.of(context)
-                .textTheme
-                .headline6
-                .apply(color: textColor.withAlpha(60), fontSizeFactor: .8),
+            style: Theme.of(context).textTheme.bodyText1.apply(color: textColor.withAlpha(60)),
           ),
           SizedBox(
             height: 20,
           ),
           Text(
             'Got some bright ideas today?',
-            style: TextStyle(color: textColor, fontSize: 46, fontWeight: FontWeight.w700, letterSpacing: -1,),
+            style: Theme.of(context).textTheme.headline4,
           ),
         ],
       ),

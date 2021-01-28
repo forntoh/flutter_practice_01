@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hi_service_app/constants.dart';
 import 'package:hi_service_app/screens/home/home_screen.dart';
 import 'package:flutter/services.dart';
+import 'package:hi_service_app/theme/typography.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: green,
         accentColor: green,
-        textTheme: Theme.of(context).textTheme.apply(bodyColor: textColor),
+        textTheme: CustomTypography.textTheme,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
