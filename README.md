@@ -4,11 +4,11 @@ Flutter design preactice number 01
 
 ## Screenshots
 
-<img src="Screenshot_20210128-130922.jpg" width=50% />
+<img src="Screenshot_20210128-130922.jpg" height=512px />
 
 ## Design to replicate
 
-<img src="https://cdn.dribbble.com/users/1553195/screenshots/11978026/media/242d5671c867aa800d3e5c8c9ad2ba2a.jpg" width=73.2% />
+![iDeaz App](https://cdn.dribbble.com/users/1553195/screenshots/11978026/media/242d5671c867aa800d3e5c8c9ad2ba2a.jpg)
 
 > Project Name: [iDeaz-App](https://dribbble.com/shots/11978026-iDeaz-App)
 >
