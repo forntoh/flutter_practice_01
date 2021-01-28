@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:hi_service_app/components/custom_app_bar.dart';
 import 'package:hi_service_app/constants.dart';
 import 'package:hi_service_app/model/category_model.dart';
 import 'package:hi_service_app/model/recent_item_model.dart';
@@ -53,20 +54,27 @@ class Body extends StatelessWidget {
           date: 'May 24, 21:36',
           category: categories[1]),
       RecentItem(
+          text: 'Next city-break',
+          date: 'May 24, 21:36',
+          category: categories[0]),
+      RecentItem(
           text: 'Vacation ideas with...',
           date: 'Feb 14, 19:36',
           category: categories[4]),
     ];
 
     return SingleChildScrollView(
-      child: Column(
-        children: [
-          HeaderWithName(name: 'Beldine'),
-          IdeaCategories(categories: categories,onPress: (int index) {}),
-          TitleWithAction(title: 'Recently added', onPress: () {}),
-          RecentsList(recents: recents),
-          SizedBox(height: defaultPaddingIcon)
-        ],
+      child: Padding(
+        padding: const EdgeInsets.only(top: CustomAppBar.height + defaultPadding),
+        child: Column(
+          children: [
+            HeaderWithName(name: 'Beldine'),
+            IdeaCategories(categories: categories,onPress: (int index) {}),
+            TitleWithAction(title: 'Recently added', onPress: () {}),
+            RecentsList(recents: recents),
+            SizedBox(height: defaultPaddingIcon)
+          ],
+        ),
       ),
     );
   }
