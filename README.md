@@ -4,7 +4,7 @@ Flutter design preactice number 01
 
 ## Screenshots
 
-<img src="Screenshot_20210128-130922.jpg" height=512px />
+<img src="Screenshot_20210128-133405.jpg" height=700px />
 
 ## Design to replicate
 
