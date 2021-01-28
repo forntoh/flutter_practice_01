@@ -1,6 +1,18 @@
-# hi_service_app
+# Flutter/Dart Practice 01 (27/01/2021)
 
-A new Flutter project.
+Flutter design preactice number 01
+
+## Screenshots
+
+<img src="Screenshot_20210128-130922.jpg" width=50% />
+
+## Design to replicate
+
+<img src="https://cdn.dribbble.com/users/1553195/screenshots/11978026/media/242d5671c867aa800d3e5c8c9ad2ba2a.jpg" width=73.2% />
+
+> Project Name: [iDeaz-App](https://dribbble.com/shots/11978026-iDeaz-App)
+>
+> Author: [Victor Niculici](https://dribbble.com/victorniculici)
 
 ## Getting Started
 
