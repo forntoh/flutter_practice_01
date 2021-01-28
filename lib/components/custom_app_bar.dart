@@ -45,8 +45,8 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
               margin: const EdgeInsets.symmetric(vertical: height * 0.25),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(12.0),
-                child: Image.network(
-                  "https://randomuser.me/api/portraits/women/50.jpg"
+                child: Image.asset(
+                  "assets/images/belle_2_b.jpg"
                 ),
               ),
             ),
